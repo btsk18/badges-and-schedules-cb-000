@@ -21,10 +21,10 @@ end
 
 def printer(attendees)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  batch_badge_creator(speakers).each { |badge|
+  batch_badge_creator(attendees).each { |badge|
     puts badge
   }
-  assign_rooms(speakers).each { |assignment|
+  assign_rooms(attendees).each { |assignment|
     puts assignment
   }
 end
