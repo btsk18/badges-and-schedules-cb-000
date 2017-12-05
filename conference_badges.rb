@@ -25,6 +25,6 @@ def printer
     puts badge
   }
   assign_rooms(speakers).each { |assignment|
-  puts assignment
+    puts assignment
   }
 end
