@@ -20,7 +20,6 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batch_badge_creator(attendees).each { |badge|
     puts badge
   }
